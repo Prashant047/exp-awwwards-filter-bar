@@ -25,9 +25,13 @@ function FilterContextProvider({children}:{children:ReactNode}){
 
 function useFilterBar(){
   const {
+    // @ts-ignore
     expanded,
+    // @ts-ignore
     setExpanded,
+    // @ts-ignore
     active,
+    // @ts-ignore
     setActive
   } = useContext(FilterContext);
   return {
